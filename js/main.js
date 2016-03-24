@@ -1,5 +1,7 @@
+//location of api and cache info
+weather_api="cache_feed.php";
 
-	
+
 function processWeather(WeatherDataNew){
 	
 	
@@ -81,16 +83,15 @@ function format(dataType, weatherArray){
 
 
 
-//location of api and cache info
-weather_api="http://mediaproof360.com/wapi2/cache_feed.php";
+
 function checkWeather(){
-	console.log(current_city);
+	
 	getinfo.url = weather_api;
 	getinfo.data="city="+current_city+"&state="+current_state;
  	getinfo.action="liveweather";
     fetch_info(getinfo);
 	
-	console.log(getinfo);
+	
 	
 }
 	
