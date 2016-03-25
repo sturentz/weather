@@ -23,6 +23,8 @@ weatherData=WeatherDataNew;
 	  full=weatherReading["full"].replace(",", "<br>");
 	   $('.wind_string').html("Winds "+weatherReading["wind_string"] + " <span class='subhead'>Humidity "+weatherReading["relative_humidity"]+"</span>");
 	   $('.citylocation').html(full);
+	   $('.observationtime').html(weatherReading["observation_time"]);
+	   
 	   
 	   
 	   //get the cityies

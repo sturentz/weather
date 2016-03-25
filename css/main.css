@@ -164,8 +164,16 @@ font-weight: 400;
 	padding-left:20px;
 	
 }
+
+.observationtime{
+	bottom:0px;
+	right:10px;
+	font-size:10px;
+	color:#929292;
+	
+}
 .city:hover{
-  color:#651C1D;}
+  color:#F4161A}
 .selected{
   color:#EA1519;	
 }
